@@ -10,14 +10,14 @@ The code is implemented and  tested on Ubuntu 20.4 linux environment.
 
 ## Generation 
 
-cd ./code  
+``cd ./code``  
 
-python evaluate/eval.py --expname shapenet --parallel --exps_folder_name trained_models --timestamp 2022_08_19_16_19_30 --checkpoint 1500 --conf ./confs/shapenet_vae.conf --split ./confs/splits/shapenet/shapenet_sofa_test_files.conf --resolution 100
+``python evaluate/eval.py --expname shapenet --parallel --exps_folder_name trained_models --timestamp 2022_08_19_16_19_30 --checkpoint 1500 --conf ./confs/shapenet_vae.conf --split ./confs/splits/shapenet/shapenet_sofa_test_files.conf --resolution 100``
 
 ## Training 
-cd ./code 
+``cd ./code`` 
 
-python training/exp_runner.py --parallel 
+``python training/exp_runner.py --parallel`` 
 
 ## Citation 
 If you use this code in your research, please cite the following paper:
