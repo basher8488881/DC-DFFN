@@ -19,5 +19,16 @@ cd ./code
 
 python training/exp_runner.py --parallel 
 
+## Citation 
+If you use this code in your research, please cite the following paper:
+
+@article{basher2023dc,
+  title={DC-DFFN: Densely Connected Deep Feature Fusion Network With Sign Agnostic Learning for Implicit Shape Representation},
+  author={Basher, Abol and Boutellier, Jani},
+  journal={IEEE Access},
+  year={2023},
+  publisher={IEEE}
+}
+
 ## Acknowledgement 
 This code is based on SALD (https://github.com/matanatz/SALD), thanks for this wonderful work. 
