@@ -20,7 +20,7 @@ cd ./code
 python training/exp_runner.py --parallel 
 
 ## Citation 
-If you use this code in your research, please cite the following paper:<\br>
+If you use this code in your research, please cite the following paper:
 
   @article{basher2023dc,
   title={DC-DFFN: Densely Connected Deep Feature Fusion Network With Sign Agnostic Learning for Implicit Shape Representation},
